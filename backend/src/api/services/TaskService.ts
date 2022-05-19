@@ -1,4 +1,4 @@
-import { Task } from "../../database/interfaces/TaskInterface";
+import { Task, TaskSchema } from "../../database/interfaces/TaskInterface";
 import Service from "./IndexService";
 import TaskModel from "../../database/models/TaskModel";
 
