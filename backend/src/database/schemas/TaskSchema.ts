@@ -6,9 +6,9 @@ interface TaskDocument extends Task, Document {  }
 const taskSchema = new Schema<TaskDocument>({
   task: String,
   status: String,
-  createdAt: new Date(), 
 },
 {
+  timestamps: true,
   versionKey: false,
 },
 );
